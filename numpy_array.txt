@@ -1,0 +1,13 @@
+
+https://www.youtube.com/watch?v=xECXZ3tyONo
+========================================================================================================
+
+from skimage import io
+photo = io.imread('auddi.jpg')
+type(photo)
+
+
+import matplotlib.pyplot as plt
+plt.imshow(photo)
+
+
