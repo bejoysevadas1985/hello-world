@@ -6,7 +6,7 @@ from skimage import io
 photo = io.imread('auddi.jpg')
 type(photo)
 
-
+============================= metlabplot to plot the graph ============================================
 import matplotlib.pyplot as plt
 plt.imshow(photo)
 
